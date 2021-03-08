@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRF.API", "BRF.API\BRF.API.csproj", "{6297AFF2-376D-4895-BB54-62476CB32DC2}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BRF.DataBase", "BRF.DataBase\BRF.DataBase.sqlproj", "{BEA4224E-F4FF-4060-BDEA-600D989C71CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{2489DA34-6CE5-451A-9384-E5FAF18B764A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataBase", "DataBase", "{E5ABF03A-A84F-46C3-81AC-B04AEF35D456}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6297AFF2-376D-4895-BB54-62476CB32DC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6297AFF2-376D-4895-BB54-62476CB32DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6297AFF2-376D-4895-BB54-62476CB32DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6297AFF2-376D-4895-BB54-62476CB32DC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEA4224E-F4FF-4060-BDEA-600D989C71CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEA4224E-F4FF-4060-BDEA-600D989C71CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEA4224E-F4FF-4060-BDEA-600D989C71CF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BEA4224E-F4FF-4060-BDEA-600D989C71CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEA4224E-F4FF-4060-BDEA-600D989C71CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEA4224E-F4FF-4060-BDEA-600D989C71CF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6297AFF2-376D-4895-BB54-62476CB32DC2} = {2489DA34-6CE5-451A-9384-E5FAF18B764A}
+		{BEA4224E-F4FF-4060-BDEA-600D989C71CF} = {E5ABF03A-A84F-46C3-81AC-B04AEF35D456}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C488B2E-2398-4D84-BD66-86F38E888449}
+	EndGlobalSection
+EndGlobal
